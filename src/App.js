@@ -12,7 +12,9 @@ const Produkt =[
 ]
 const App = () =>(
     <div id="ok">
-
+        <header>
+            <input placeholder="wyszukaj"/>
+        </header>
         <div className="lewa">
             <p><a href="inne1">inne1</a></p>
             <p><a href="inne2">inne2</a></p>

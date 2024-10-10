@@ -10,7 +10,10 @@
 }
 body{
   background-color: antiquewhite;
-
+}
+header{
+  background-color: cadetblue;
+  padding: 20px;
 }
 
 
