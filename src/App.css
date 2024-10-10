@@ -1,6 +1,16 @@
 .App {
   text-align: center;
+  background-color: gray;
+  float: left;
+}
+.lewa{
+  float: left;
+  width: 200px;
+  background-color: burlywood;
+}
+body{
   background-color: antiquewhite;
+
 }
 
 
