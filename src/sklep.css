@@ -1,6 +1,9 @@
 td{
     text-align: center;
-    margin: 20px;
-    background-color: antiquewhite;
-
+    background-color: white;
+    width: 200px;
+    height: 330px;
+}
+table,tr,td{
+    border-spacing: 20px 10px ;
 }

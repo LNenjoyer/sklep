@@ -6,21 +6,21 @@ const Sklep = (props)=>(
     <tbody>
         <tr>
             <td>
-                <div>
-                    <img src={props.photo1} alt={props.name1}/>
-                    {props.name1}
-                    {props.desc1}
-                </div>
+                <p><img src={props.photo1} alt={props.name1}/></p>
+                <p>{props.name1}</p>
+                <p>{props.desc1}</p>
+
             </td>
             <td>
-                <img src={props.photo2} alt={props.name2}/>
-                {props.name2}
-                {props.desc2}
+                <p><img src={props.photo2} alt={props.name2}/></p>
+                <p>{props.name2}</p>
+                <p>{props.desc2}</p>
+
             </td>
             <td>
-                <img src={props.photo3} alt={props.name3}/>
-                {props.name3}
-                {props.desc3}
+                <p><img src={props.photo3} alt={props.name3}/></p>
+                <p>{props.name3}</p>
+                <p>{props.desc3}</p>
             </td>
         </tr>
     </tbody>
